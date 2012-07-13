@@ -1,3 +1,4 @@
+REM Create a new directory defined in the %directoryDestination% variable
 @echo off & setlocal ENABLEEXTENSIONS
 set directoryDestination=c:\temp
 IF NOT EXIST %directoryDestination% GOTO NOWINDIR
