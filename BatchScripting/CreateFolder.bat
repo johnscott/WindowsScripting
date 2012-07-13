@@ -8,6 +8,7 @@ IF NOT EXIST %directoryDestination% GOTO NOWINDIR
 call :GetDate y m d
 echo/Today is: %y%-%m%-%d%
 mkdir "%directoryDestination%\%m%-%d%-%y%"
+REM Debug comments
 REM pause
 
 goto :EOF
